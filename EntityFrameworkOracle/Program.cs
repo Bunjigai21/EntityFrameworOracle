@@ -14,8 +14,14 @@ namespace EntityFrameworkOracle
             {
                 var requeteEmployes = from EMPLOYE in oracleContexte.EMPLOYEs
                                       select EMPLOYE;
+                var lesEmployes = requeteEmployes.ToList();
+                foreach(var unEmploye in lesEmployes)
+                {
+                    Console.WriteLine(unEmploye.NUMEMP + " - " + unEmploye.NOMEMP);
+                }
 
             }
+            Console.ReadLine();
         }
     }
 }

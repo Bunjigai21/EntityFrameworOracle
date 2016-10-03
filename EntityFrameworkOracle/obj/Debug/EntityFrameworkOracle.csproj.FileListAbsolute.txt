@@ -1,0 +1,12 @@
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFrameworkOracle.exe.config
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFrameworkOracle.exe
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFrameworkOracle.pdb
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFramework.dll
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFramework.xml
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\obj\Debug\EntityFrameworkOracle.csprojResolveAssemblyReference.cache
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\obj\Debug\EntityFrameworkOracle.exe
+C:\Users\nicoli.r\Documents\EntityFrameworkOracle\EntityFrameworkOracle\obj\Debug\EntityFrameworkOracle.pdb
