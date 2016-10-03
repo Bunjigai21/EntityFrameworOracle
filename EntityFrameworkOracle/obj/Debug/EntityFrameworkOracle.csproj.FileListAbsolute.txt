@@ -10,3 +10,6 @@ C:\Users\Romain\Documents\EntityFrameworOracle\EntityFrameworkOracle\bin\Debug\E
 C:\Users\Romain\Documents\EntityFrameworOracle\EntityFrameworkOracle\obj\Debug\EntityFrameworkOracle.csprojResolveAssemblyReference.cache
 C:\Users\Romain\Documents\EntityFrameworOracle\EntityFrameworkOracle\obj\Debug\EntityFrameworkOracle.exe
 C:\Users\Romain\Documents\EntityFrameworOracle\EntityFrameworkOracle\obj\Debug\EntityFrameworkOracle.pdb
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFrameworkOracle.exe.config
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\obj\Debug\EntityFrameworkOracle.exe
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\obj\Debug\EntityFrameworkOracle.pdb
