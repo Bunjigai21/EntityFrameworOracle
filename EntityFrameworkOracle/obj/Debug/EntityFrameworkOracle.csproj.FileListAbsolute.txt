@@ -13,3 +13,12 @@ C:\Users\Romain\Documents\EntityFrameworOracle\EntityFrameworkOracle\obj\Debug\E
 C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFrameworkOracle.exe.config
 C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\obj\Debug\EntityFrameworkOracle.exe
 C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\obj\Debug\EntityFrameworkOracle.pdb
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFrameworkOracle.exe
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFrameworkOracle.pdb
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFramework.dll
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFramework.xml
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Romain\Documents\EntityFrameworkOracle\EntityFrameworkOracle\obj\Debug\EntityFrameworkOracle.csprojResolveAssemblyReference.cache

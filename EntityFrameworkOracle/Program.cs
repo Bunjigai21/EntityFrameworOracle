@@ -12,7 +12,7 @@ namespace EntityFrameworkOracle
         {
             using (OracleEntities oracleContexte= new OracleEntities())
             {
-                Console.WriteLine("-_-_-_-_-_-_-_-_-_-  n°1 -_-_-_-_-_-_-_-_-_-");
+                Console.WriteLine("/n-_-_-_-_-_-_-_-_-_-  n°1 -_-_-_-_-_-_-_-_-_-/n");
                 var requeteEmployes = from EMPLOYE in oracleContexte.EMPLOYEs
                                       select EMPLOYE;
                 var lesEmployes = requeteEmployes.ToList();
@@ -22,7 +22,7 @@ namespace EntityFrameworkOracle
                     Console.WriteLine(unEmploye.NUMEMP + " - " + unEmploye.NOMEMP);
                 }
 
-                Console.WriteLine("-_-_-_-_-_-_-_-_-_-  n°2 -_-_-_-_-_-_-_-_-_-");
+                Console.WriteLine("/n-_-_-_-_-_-_-_-_-_-  n°2 -_-_-_-_-_-_-_-_-_-/n");
 
                 var unCodeProjet = "PR1";
                 var requeteEmployesProjet = from EMPLOYE in oracleContexte.EMPLOYEs
@@ -34,15 +34,21 @@ namespace EntityFrameworkOracle
                     Console.WriteLine(unEmploye.NUMEMP + " - " + unEmploye.NOMEMP);
                 }
 
-                Console.WriteLine("-_-_-_-_-_-_-_-_-_-  n°3 -_-_-_-_-_-_-_-_-_-");
-                var unId = 3;
+                Console.WriteLine("/n-_-_-_-_-_-_-_-_-_-  n°3 -_-_-_-_-_-_-_-_-_-/n");
+                var unId = 33;
                 var requeteEmployesId = from EMPLOYE in oracleContexte.EMPLOYEs
                                        where EMPLOYE.NUMEMP == unId
                                        select EMPLOYE;
-                var employeId = requeteEmployesId.First();
-                Console.WriteLine(employeId.NOMEMP + " - " + employeId.PRENOMEMP + " - " + employeId.SALAIRE);
-
-                Console.WriteLine("-_-_-_-_-_-_-_-_-_-  n°4 -_-_-_-_-_-_-_-_-_-");
+                var employeId = requeteEmployesId.FirstOrDefault();
+                if (employeId != null)
+                {
+                    Console.WriteLine(employeId.NOMEMP + " - " + employeId.PRENOMEMP + " - " + employeId.SALAIRE);
+                }
+                else
+                {
+                    Console.WriteLine("L'employé numéro " + unId + " n'existe pas.");
+                }
+                Console.WriteLine("/n-_-_-_-_-_-_-_-_-_-  n°4 -_-_-_-_-_-_-_-_-_-/n");
 
 
             }
