@@ -110,7 +110,7 @@ namespace EntityFrameworkOracle
                 Console.WriteLine("\n-_-_-_-_-_-_-_-_-_-  Mise à jour -_-_-_-_-_-_-_-_-_-\n");
 
                 
-                var empl = oracleContexte.EMPLOYEs.Find(200);
+                var empl = oracleContexte.EMPLOYEs.Find(2);
                 empl.SALAIRE = empl.SALAIRE * (decimal)1.1;
                 Console.WriteLine("Le nouveau salaire = " + empl.SALAIRE);
                 oracleContexte.SaveChanges();
