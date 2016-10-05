@@ -126,8 +126,24 @@ namespace EntityFrameworkOracle
                 Console.WriteLine("Le cours a été crée");
                 oracleContexte.COURS.Remove(unCours);
                 oracleContexte.SaveChanges();
-                
 
+                Console.WriteLine("\n-_-_-_-_-_-_-_-_-_- Test de ToString -_-_-_-_-_-_-_-_-_-\n");
+
+                var req = from s in oracleContexte.COURS
+                          select s;
+                var lesCourss = req.ToList();
+                foreach (COUR unCour in lesCourss)
+                {
+                    Console.WriteLine(unCour);
+                }
+                var requeteEmp = from e in oracleContexte.EMPLOYEs
+                                 select e;
+                var lesEmployess = requeteEmp.ToList();
+                Console.WriteLine("\n\n----------------------------\n\n");
+                foreach(EMPLOYE emp in lesEmployes)
+                {
+                    Console.WriteLine(emp);
+                }
             }
             Console.ReadLine();
         }

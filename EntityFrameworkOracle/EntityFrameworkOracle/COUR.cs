@@ -19,11 +19,7 @@ namespace EntityFrameworkOracle
         {
             this.SEMINAIREs = new HashSet<SEMINAIRE>();
         }
-        public override string ToString()
-        {
-            return ("Cours n° : " + CODECOURS + " - Libelle cours : " + LIBELLECOURS + " - Nombre de jour(s) : " + NBJOURS);
-        }
-
+        
         public string CODECOURS { get; set; }
         public string LIBELLECOURS { get; set; }
         public decimal NBJOURS { get; set; }

@@ -20,18 +20,6 @@ namespace EntityFrameworkOracle
             this.EMPLOYE1 = new HashSet<EMPLOYE>();
             this.INSCRITs = new HashSet<INSCRIT>();
         }
-        public override string ToString()
-        {
-            return ("Employe n° : " + NUMEMP + " - Nom : " + NOMEMP );
-        }
-        //public override string ToString()
-        //{
-        //    return ("Employe n° : " + NUMEMP + " - Nom : " + NOMEMP + " - Prenom : " + PRENOMEMP);
-        //} 
-        public override string ToString(EMPLOYE empSalaire)
-        {
-            return (" Le nouveau salaire est = " + empSalaire);
-        }
 
         public decimal NUMEMP { get; set; }
         public string NOMEMP { get; set; }

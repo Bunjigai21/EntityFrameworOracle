@@ -65,6 +65,7 @@
     <Compile Include="COUR.cs">
       <DependentUpon>EFOracle.tt</DependentUpon>
     </Compile>
+    <Compile Include="CourService.cs" />
     <Compile Include="EFOracle.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -83,6 +84,7 @@
     <Compile Include="EMPLOYE.cs">
       <DependentUpon>EFOracle.tt</DependentUpon>
     </Compile>
+    <Compile Include="EmployeService.cs" />
     <Compile Include="INSCRIT.cs">
       <DependentUpon>EFOracle.tt</DependentUpon>
     </Compile>
