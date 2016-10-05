@@ -124,6 +124,8 @@ namespace EntityFrameworkOracle
                 oracleContexte.COURS.Add(unCours);
                 oracleContexte.SaveChanges();
                 Console.WriteLine("Le cours a été crée");
+                oracleContexte.COURS.Remove(unCours);
+                oracleContexte.SaveChanges();
                 
 
             }
